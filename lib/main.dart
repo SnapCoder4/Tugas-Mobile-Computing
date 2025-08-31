@@ -11,7 +11,7 @@ void main() {
   int total = 0;
   List<int> deret = [];
 
-  if (angka % 2 == 0 && angka < 20) {
+  if (angka % 2 == 0 && angka <= 20) {
     for (int i = angka; i <= 20; i += 2) {
       total += i;
       deret.add(i);
